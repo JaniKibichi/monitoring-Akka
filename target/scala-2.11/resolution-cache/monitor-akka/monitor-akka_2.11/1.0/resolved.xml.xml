@@ -4,7 +4,7 @@
 		module="monitor-akka_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180523115646"
+		publication="20180523140230"
 	>
 		<description>
 		Monitor-Akka

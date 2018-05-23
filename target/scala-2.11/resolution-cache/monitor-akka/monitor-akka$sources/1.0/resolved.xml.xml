@@ -4,7 +4,7 @@
 		module="monitor-akka$sources"
 		revision="1.0"
 		status="integration"
-		publication="20180523115646"
+		publication="20180523140230"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
