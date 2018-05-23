@@ -30,3 +30,8 @@ To Achieve Fault Tolerance, we must bake in:
 - Replication: Multiple identical H/W S/W instances that are all called and one result used
 - Isolation: Loosely couple components/separate entity
 - Delegation: Pass responsibilities around
+
+AKKA:
+- Achieves fault isolation through the supervisor resume, stop, restart, terminate messages
+- Can create duplicate actors in case of failure
+- Has asynchronous message passing, separating components 
