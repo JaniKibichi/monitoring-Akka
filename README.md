@@ -35,3 +35,8 @@ AKKA:
 - Achieves fault isolation through the supervisor resume, stop, restart, terminate messages
 - Can create duplicate actors in case of failure
 - Has asynchronous message passing, separating components 
+
+#### What we do in this Repo:
+
+###### Create a child Actor of a Parent Actor
+- Create the ActorSystem in <b>com.github.janikibichi.learnakka.monitoring</b>
