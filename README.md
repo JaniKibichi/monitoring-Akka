@@ -40,3 +40,5 @@ AKKA:
 
 ###### Create a child Actor of a Parent Actor
 - Create the ActorSystem in <b>com.github.janikibichi.learnakka.monitoring</b>
+- Branch out to create the first child in <b>com.github.janikibichi.learnakka.monitoring.CreateChild.scala</b>
+- Run the App to create parent and actor.
