@@ -8,7 +8,13 @@ case class Greet(msg: String)
 
 
 object CreateChild extends App{
+  val actorSystem = ActorSystem("Supervisors")
 
+  //Create and define an actor in the ActorSystem
+  val parent = actorSystem.actorOf(Props[ParentActor],"parent")
+
+  //Send a message to create the child
+  parent ! CreateAChild
 }
 
 //Define the Child Actor
