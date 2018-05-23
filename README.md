@@ -41,4 +41,9 @@ AKKA:
 ###### Create a child Actor of a Parent Actor
 - Create the ActorSystem in <b>com.github.janikibichi.learnakka.monitoring</b>
 - Branch out to create the first child in <b>com.github.janikibichi.learnakka.monitoring.CreateChild.scala</b>
-- Run the App to [create parent and actor.]()
+- Run the App to [create parent and actor.](https://asciinema.org/a/rJQpblYYu1JNGGHFafL19iBUi)
+<br><br>
+- Branch out to explore overriding the life cycle hooks of an actor
+````
+git checkout -b override_life_cycle_hooks create_child_actors
+````
