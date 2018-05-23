@@ -24,3 +24,9 @@ The grand-parent of all actors termed as "top-level" + supervises special actors
 Using Supervision and Monitoring of AKKA Actors, we can create fault tolerant systems/applications that run continuosly for years!
 
 ####### A Fault Tolerant system should always be responsive and cannot fail completely in case of a inabilty to perform a function/operation. Even if a component fails, the system continues and never shuts down, but may have degraded performance.
+
+To Achieve Fault Tolerance, we must bake in:
+- Duplication: Multiple identical system instances
+- Replication: Multiple identical H/W S/W instances that are all called and one result used
+- Isolation: Loosely couple components/separate entity
+- Delegation: Pass responsibilities around
