@@ -63,3 +63,10 @@ git checkout -b one_for_one_strategy message_child_actors_get_responses
 ````
 - Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.OneForOneStrategy.scala</b>
 - Run the App to [test the OneForOne Strategy.](https://asciinema.org/a/ZGss1fbSArbwOTYjn3IMEDYYz)
+<br><br>
+- Branch out to explore AllForOne Strategy for Actors
+````
+git checkout -b all_for_one_strategy one_for_one_strategy
+````
+- Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.AllForOneStrategy.scala</b>
+- Run the App to [test the AllForOne Strategy.](https://asciinema.org/a/ZGss1fbSArbwOTYjn3IMEDYYz)
