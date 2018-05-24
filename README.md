@@ -70,3 +70,10 @@ git checkout -b all_for_one_strategy one_for_one_strategy
 ````
 - Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.AllForOneStrategy.scala</b>
 - Run the App to [test the AllForOne Strategy.](https://asciinema.org/a/IoWKgChNileZJuQfuehGUk4tx)
+<br><br>
+- Branch out to explore monitoring actor life with DeathWatch
+````
+git checkout -b monitor_actor_life_with_deathwatch all_for_one_strategy
+````
+- Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.ActorLifeDeathWatch.scala</b>
+- Run the App to [monitor Actor Life-cycle with DeathWatch.](https://asciinema.org/a/IoWKgChNileZJuQfuehGUk4tx)
