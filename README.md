@@ -77,3 +77,10 @@ git checkout -b monitor_actor_life_with_deathwatch all_for_one_strategy
 ````
 - Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.ActorLifeDeathWatch.scala</b>
 - Run the App to [monitor Actor Life-cycle with DeathWatch.](https://asciinema.org/a/UGezf2Ivf4AgvcTCsd8zrRhYQ)
+<br><br>
+- Branch out to explore routing actor messages
+````
+git checkout -b routing_actor_messages monitor_actor_life_with_deathwatch 
+````
+- Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.RoutingActorMessages.scala</b>
+- Run the App to [routing actor messages.](https://asciinema.org/a/UGezf2Ivf4AgvcTCsd8zrRhYQ)
