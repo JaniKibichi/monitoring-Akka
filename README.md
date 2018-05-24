@@ -56,3 +56,10 @@ git checkout -b message_child_actors_get_responses override_life_cycle_hooks
 ````
 - Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.MessageAndResponse.scala</b>
 - Run the App to [send messages to children and get responses.](https://asciinema.org/a/s3J43MTgDgsNbZrZrmJ4MiAhw)
+<br><br>
+- Branch out to explore OneForOne Strategy for Actors
+````
+git checkout -b one_for_one_strategy message_child_actors_get_responses 
+````
+- Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.OneForOneStrategy.scala</b>
+- Run the App to [test the OneForOne Strategy.](https://asciinema.org/a/s3J43MTgDgsNbZrZrmJ4MiAhw)
