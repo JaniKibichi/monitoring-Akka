@@ -48,4 +48,4 @@ AKKA:
 git checkout -b override_life_cycle_hooks create_child_actors
 ````
 - Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.monitoring.OverrideHooks.scala</b>
-- Run the App to [see the different overrides.]()
+- Run the App to [see the different overrides.](https://asciinema.org/a/Teg6OOQ24cPFFq6GwqXNcsYAg)
