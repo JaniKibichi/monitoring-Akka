@@ -76,4 +76,4 @@ git checkout -b all_for_one_strategy one_for_one_strategy
 git checkout -b monitor_actor_life_with_deathwatch all_for_one_strategy
 ````
 - Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.ActorLifeDeathWatch.scala</b>
-- Run the App to [monitor Actor Life-cycle with DeathWatch.](https://asciinema.org/a/IoWKgChNileZJuQfuehGUk4tx)
+- Run the App to [monitor Actor Life-cycle with DeathWatch.](https://asciinema.org/a/UGezf2Ivf4AgvcTCsd8zrRhYQ)

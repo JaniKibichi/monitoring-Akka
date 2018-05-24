@@ -37,7 +37,7 @@ class DeathWatchActor extends Actor{
       child ! Service
     case Kill =>
       context.stop(child)
-    case Terminated('child') =>
+    case Terminated(`child`) =>
     println("The service actor has terminated and is no longer available")
   }
 }
