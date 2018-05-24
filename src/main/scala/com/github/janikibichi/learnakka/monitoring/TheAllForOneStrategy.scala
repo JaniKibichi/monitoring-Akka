@@ -11,7 +11,7 @@ case class Sub(a: Int, b: Int)
 case class Div(a: Int, b: Int)
 
 object TheAllForOneStrategy extends App{
-  val system = ActorSystem("Supervisor Strategy")
+  val system = ActorSystem("SupervisorStrategy")
 
   val supervisor = system.actorOf(Props[AllForOneStrategySupervisor],"supervisor")
 
@@ -56,8 +56,10 @@ class AllForOneStrategySupervisor extends Actor {
     case _: Exception => Escalate
   }
 
+  //Create children actors
   val printer = context.actorOf(Props[ResultPrinter])
-  val calculator = context.actorOf(Props(classOf[Calculator]))
+
+  val calculator = context.actorOf(Props(classOf[Calculator], printer))
 
   def receive = {
     case "Start" =>
