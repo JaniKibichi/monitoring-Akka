@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="286d59d3-d1ae-4546-b106-a5c08024e62e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -25,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="61" column="72" lean-forward="true" selection-start-line="61" selection-end-line="61" selection-end-column="72" />
+              <first_editor relative-caret-position="471">
+                <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -59,9 +58,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/monitoring/CreateChild.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/monitoring/OverrideHooks.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/monitoring/MessageAndResponse.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/monitoring/OneForOneStrategy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/monitoring/TheOneForOneStrategy.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -248,7 +247,7 @@
         <observation name="typedSelect" value="143.0" />
       </dailyData>
       <dailyData date="24-5-2018">
-        <observation name="cancelled" value="932.0" />
+        <observation name="cancelled" value="944.0" />
         <observation name="explicitSelect" value="91.0" />
         <observation name="typedSelect" value="128.0" />
       </dailyData>
@@ -266,7 +265,7 @@
         <observation name="count" value="1249.0" />
       </dailyData>
       <dailyData date="24-5-2018">
-        <observation name="count" value="1151.0" />
+        <observation name="count" value="1163.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -675,7 +674,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527145057778" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527145538452" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -699,7 +698,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527145057780" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527145538454" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -798,7 +797,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.34557062" />
@@ -872,8 +871,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="385">
-            <caret line="61" column="72" lean-forward="true" selection-start-line="61" selection-end-line="61" selection-end-column="72" />
+          <first_editor relative-caret-position="471">
+            <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
