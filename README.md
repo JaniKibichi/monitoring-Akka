@@ -49,3 +49,10 @@ git checkout -b override_life_cycle_hooks create_child_actors
 ````
 - Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.monitoring.OverrideHooks.scala</b>
 - Run the App to [see the different overrides.](https://asciinema.org/a/Teg6OOQ24cPFFq6GwqXNcsYAg)
+<br><br>
+- Branch out to sending messages to child actors and collect responses
+````
+git checkout -b message_child_actors_get_responses override_life_cycle_hooks
+````
+- Create the file to handle the ActorSystem: <b>com.github.janikibichi.learnakka.monitoring.MessageAndResponse.scala</b>
+- Run the App to [send messages to children and get responses.](https://asciinema.org/a/s3J43MTgDgsNbZrZrmJ4MiAhw)
