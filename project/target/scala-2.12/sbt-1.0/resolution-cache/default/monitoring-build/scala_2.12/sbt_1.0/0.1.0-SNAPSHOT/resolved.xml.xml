@@ -4,7 +4,7 @@
 		module="monitoring-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180523142948"
+		publication="20180620193855"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
